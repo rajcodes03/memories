@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 //import Posts from '../Posts/Tosts';
 import useStyles from './styles';
 
-import Pot from './Pot/Pot';
+import Post from './Post/Post';
 const Posts = () => {
     const posts= useSelector((state)=> state.posts);
 
